@@ -12,7 +12,7 @@
 
 .menu__left__logo {
   width: 55px;
-  background-image: url(img/logo.svg);
+  background-image: url(img/logo.png);
   background-repeat: no-repeat;
   margin: 25px 43px 0 0;
   padding-bottom: 82px;
@@ -108,6 +108,7 @@
   background-image: url(img/main.svg);
   background-repeat: no-repeat;
   background-size: 100%;
+  margin-bottom: 54px;
 }
 
 .main__top__title {
@@ -132,4 +133,47 @@
   background-repeat: no-repeat;
   background-size: 41%;
   background-position: left 101% top 15%;
+}
+
+.main__center {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* TO-DO в конце изменить на проценты */
+.main__center__title {
+  font: bold 22px/22px 'GothamPro';
+  margin: 0;
+}
+
+.shoes-title {
+  position: relative;
+  font: normal 12px/0 'GothamPro';
+}
+
+.shoes-price {
+  font: bold 14px/14px 'GothamPro';
+}
+
+.shoes-image {
+  display: block;
+  max-width: 187px;
+  margin: 15px 0 33px 0;
+}
+
+.circle {
+  position: relative;
+  display: inline-block;
+  align-self: center;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: red;
+  top: 5%;
+  left: 13%;
+  bottom: 25px;
+  left: 50%;
 }
