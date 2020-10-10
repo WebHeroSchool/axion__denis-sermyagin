@@ -2,26 +2,31 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="styles.css">
     <title>Axion</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="fonts.css">
   </head>
   <body>
     <header>
-      <div class="logo">
-        <img src="img/logo.svg" alt="">
-      </div>
       <nav class="menu">
-        <a href="#" class="menu__item">SHOP</a>
-        <a href="#" class="menu__item">NEWS</a>
-        <a href="#" class="menu__item">TEAM</a>
-        <a href="#" class="menu__item">LEGACY</a>
-        <a href="#" class="menu__item">HELP</a>
-      </nav>
-      <div class="search"></div>
-      <nav class="other-nav">
-        <a href="#" class="other-nav__sign">SIGN</a>
-        <a href="#" class="other-nav__cart">CART</a>
-        <a href="#" class="other-nav__language"></a>
+        <div class="menu__left">
+          <div class="menu__left__logo"></div>
+          <ul class="menu__left__ul">
+            <li class="menu__left__ul__item"><a href="#">SHOP</a></li>
+            <li class="menu__left__ul__item"><a href="#">NEWS</a></li>
+            <li class="menu__left__ul__item"><a href="#">TEAM</a></li>
+            <li class="menu__left__ul__item"><a href="#">LEGACY</a></li>
+            <li class="menu__left__ul__item"><a href="#">HELP</a></li>
+          </ul>
+        </div>
+        <div class="menu__right">
+          <ul class="menu__right__ul">
+            <input class="menu__right__search" type="search" name="search" value="">
+            <li class="menu__right__ul__item"><a href="#">SIGN IN</a></li>
+            <li class="menu__right__ul__item"><a href="#">CART</a></li>
+            <img class="menu__right__flag" src="img/flag.svg" alt="flag">
+          </ul>
+        </div>
       </nav>
     </header>
 

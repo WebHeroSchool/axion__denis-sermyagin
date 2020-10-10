@@ -1,0 +1,78 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 89%;
+  margin: auto;
+}
+
+.menu__left {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu__left__logo {
+  width: 55px;
+  background-image: url(img/logo.svg);
+  background-repeat: no-repeat;
+  margin: 25px 43px 0 0;
+  padding-bottom: 100px;
+}
+
+.menu__left__ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.menu__left__ul > li {
+  display: inline;
+  margin: 0;
+}
+
+.menu__left__ul > li > a {
+  color: black;
+  display: inline-block;
+  text-decoration: none;
+  padding-right: 31px;
+  font: bold 12px 'GothamPro';
+  margin-top: 44px;
+}
+
+.menu__right {
+  display: flex;
+  justify-content: space-between;
+  margin: 35px 11px;
+}
+
+.menu__right__search {
+  background-image: url(img/search.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  border-width: 0 0 1px;
+  outline: none;
+  height: 24px;
+  margin-right: 31px;
+}
+
+.menu__right__ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.menu__right__ul > li {
+  display: inline;
+  margin: 0;
+}
+
+.menu__right__ul > li > a {
+  color: black;
+  display: inline-block;
+  text-decoration: none;
+  padding-right: 35px;
+  font: bold 12px 'GothamPro';
+}
+
+.menu__right__flag {
+  transform: translate(12px, 6px);
+}
