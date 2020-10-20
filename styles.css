@@ -228,6 +228,7 @@
   height: 500px;
   width: 100%;
   margin: auto;
+  border-radius: 50%;
 }
 
 .main__bottom__video {
@@ -238,12 +239,13 @@
   margin: 7% 0 0 3%;
   background-image: url(img/video_image.png);
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .main__bottom__content {
   max-width: 34%;
   color: white;
-  margin-top: 13%;
+  margin: auto;
 }
 
 .main__bottom__source {
