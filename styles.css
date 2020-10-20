@@ -99,6 +99,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 7%;
 }
 
 .main__top {
@@ -230,15 +231,17 @@
 }
 
 .main__bottom__video {
-  width: auto;
+  display: flex;
+  justify-content: center;
+  width: 63%;
+  height: 72%;
   margin: 7% 0 0 3%;
-}
-
-.video__frame {
-  z-index: 1;
+  background-image: url(img/video_image.png);
+  background-repeat: no-repeat;
 }
 
 .main__bottom__content {
+  max-width: 34%;
   color: white;
   margin-top: 13%;
 }
@@ -269,4 +272,44 @@
   background-repeat: no-repeat;
   background-size: 15%;
   background-position: left 35% top 40%;
+}
+
+
+.news {
+  width: 89%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.news__header {
+  font: bold 22px/22px 'GothamPro';
+  text-align: center;
+  margin-bottom: 4%;
+}
+
+.news__article {
+  max-width: 30%;
+  max-height: 338px;
+}
+
+.news__title {
+  font: bold 18px/18px 'GothamPro';
+}
+
+.news__subtitle {
+  font: normal 14px/17px 'GothamPro';
+}
+
+.news__source {
+  display: inline-block;
+  text-decoration: none;
+  font: bold 12px/12px 'GothamPro';
+}
+
+.news__date {
+  display: inline-block;
+  font: bold 12px/12px 'GothamPro';
+  opacity: 30%;
 }
