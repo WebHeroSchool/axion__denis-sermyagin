@@ -135,12 +135,14 @@
   background-position: left 101% top 15%;
 }
 
+
 .main__center {
   position: relative;
   width: 100%;
-  height: auto;
+  max-height: 500px;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 3%;
 }
 
 /* TO-DO в конце изменить на проценты */
@@ -152,16 +154,18 @@
 .shoes-title {
   position: relative;
   font: normal 12px/0 'GothamPro';
+  margin: 0 0 0 9px;
 }
 
 .shoes-price {
   font: bold 14px/14px 'GothamPro';
+  margin: 14px 0 0px 10px;
 }
 
 .shoes-image {
   display: block;
   max-width: 187px;
-  margin: 15px 0 33px 0;
+  margin: 15px 15px 33px 22px;
 }
 
 .circle {
@@ -171,9 +175,98 @@
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  background: red;
-  top: 5%;
-  left: 13%;
-  bottom: 25px;
-  left: 50%;
+  bottom: 18px;
+  left: 72%;
+  margin: 0 5px 0 0;
+  transition: width 0.5s height 0.5s;
+}
+
+.circle:hover {
+  width: 9px;
+  height: 9px;
+  margin: 0 3px 0 0;
+}
+
+.line {
+  position: relative;
+  max-height: 100px;
+  background: black;
+  width: 1px;
+  opacity: 20%;
+  margin-top: 5%;
+}
+
+.circle_grey {
+  background-color: grey;
+}
+
+.main__center__atlas__circle_color_black{
+  background-color: black;
+}
+
+.circle_red {
+  background-color: red;
+}
+
+.circle_orange {
+  background-color: orange;
+}
+
+.main__center__camel__circle_color_brown {
+  background-color: brown;
+}
+
+.circle_blue {
+  background-color: blue;
+}
+
+.main__bottom {
+  display: flex;
+  justify-content: space-between;
+  background: black;
+  height: 500px;
+  width: 100%;
+  margin: auto;
+}
+
+.main__bottom__video {
+  width: auto;
+  margin: 7% 0 0 3%;
+}
+
+.video__frame {
+  z-index: 1;
+}
+
+.main__bottom__content {
+  color: white;
+  margin-top: 13%;
+}
+
+.main__bottom__source {
+  text-decoration: none;
+  color: white;
+}
+
+.main__bottom__title {
+  font: bold 22px/26px 'GothamPro';
+  padding: 0 7% 0 0;
+  margin: 6% 0 0 12%;
+}
+
+.main__bottom__subtitle {
+  font: normal 14px/17px 'GothamPro';
+  padding: 0% 36px 0 0%;
+  margin: 6% 0 0 12%;
+}
+
+.main__bottom__source {
+  display: block;
+  position: relative;
+  font: bold 12px/12px 'GothamPro';
+  margin: 6% 0 0 12%;
+  background-image: url(img/arrow.svg);
+  background-repeat: no-repeat;
+  background-size: 15%;
+  background-position: left 35% top 40%;
 }
