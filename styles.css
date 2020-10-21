@@ -1,8 +1,13 @@
+body{
+  margin: 0;
+}
+
 .menu {
   display: flex;
   justify-content: space-between;
   width: 89%;
   margin: auto;
+  margin-top: 1%;
 }
 
 .menu__left {
@@ -99,7 +104,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 7%;
+  margin-bottom: 6%;
 }
 
 .main__top {
@@ -282,6 +287,7 @@
   margin: auto;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 6%;
 }
 
 
@@ -292,7 +298,7 @@
 }
 
 .news__article {
-  max-width: 30%;
+  max-width: 306px;
   max-height: 338px;
 }
 
@@ -302,16 +308,110 @@
 
 .news__subtitle {
   font: normal 14px/17px 'GothamPro';
+  margin: 0;
 }
 
 .news__source {
-  display: inline-block;
+  position: relative;
+  width: 40%;
   text-decoration: none;
-  font: bold 12px/12px 'GothamPro';
+  font: bold 12px/43px 'GothamPro';
+  background-image: url(img/black_arrow.svg);
+  background-repeat: no-repeat;
+  background-size: 27%;
+  background-position: center right;
 }
 
 .news__date {
   display: inline-block;
   font: bold 12px/12px 'GothamPro';
   opacity: 30%;
+}
+
+.news__subscribe {
+  display: flex;
+  max-width: 100%;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.photo {
+  max-width: 89%;
+  margin: auto;
+  text-align: right;
+  border: none;
+  margin-bottom: 7%;
+}
+
+.photo__hashtag {
+  font: bold 18px/14px 'GothamPro';
+  opacity: 30%;
+}
+
+.photo__pipeline {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  color: white;
+  width: 100%;
+  height: 300px;
+  background-color: black;
+}
+
+.footer__menu {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  height: 100%;
+  max-width: 67%;
+  align-items: center;
+}
+
+.footer__menu > ul > li > a {
+  text-decoration: none;
+  color: white;
+  max-width: 12%;
+}
+
+.footer__menu > ul {
+  list-style-type: none;
+  max-height: 110px;
+}
+
+.footer__menu__title {
+  font: bold 12px/12px 'GothamPro';
+  margin-bottom: 8%;
+}
+
+.footer__menu__item {
+  font: normal 12px/18px 'GothamPro';
+}
+
+.rights {
+  color: white;
+  max-width: 18%;
+  display: flex;
+  margin: auto;
+  text-align: center;
+  vertical-align: bottom;
+  font: normal 12px/12px 'GothamPro';
+}
+
+.interactive {
+  max-width: 16%;
+}
+
+.interactive__sign {
+  text-decoration: none;
+  display: block;
+  width: 78%;
+  height: auto;
+  box-sizing: border-box;
+  font: bold 10px/10px 'GothamPro';
+  border: 1.5px solid white;
+  text-align: center;
+  padding: 7px;
 }
