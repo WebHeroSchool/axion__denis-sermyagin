@@ -2,92 +2,205 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="styles.css">
     <title>Axion</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="fonts.css">
   </head>
   <body>
     <header>
-      <div class="logo">
-        <img src="img/logo.svg" alt="">
-      </div>
       <nav class="menu">
-        <a href="#" class="menu__item">SHOP</a>
-        <a href="#" class="menu__item">NEWS</a>
-        <a href="#" class="menu__item">TEAM</a>
-        <a href="#" class="menu__item">LEGACY</a>
-        <a href="#" class="menu__item">HELP</a>
-      </nav>
-      <div class="search"></div>
-      <nav class="other-nav">
-        <a href="#" class="other-nav__sign">SIGN</a>
-        <a href="#" class="other-nav__cart">CART</a>
-        <a href="#" class="other-nav__language"></a>
+        <div class="menu__left">
+          <div class="menu__left__logo"></div>
+          <ul class="menu__left__ul">
+            <li class="menu__left__ul__item"><a href="#">SHOP</a></li>
+            <li class="menu__left__ul__item"><a href="#">NEWS</a></li>
+            <li class="menu__left__ul__item"><a href="#">TEAM</a></li>
+            <li class="menu__left__ul__item"><a href="#">LEGACY</a></li>
+            <li class="menu__left__ul__item"><a href="#">HELP</a></li>
+          </ul>
+        </div>
+
+        <div class="menu__right">
+          <ul class="menu__right__ul">
+            <input class="menu__right__search" type="search" name="search" value="">
+            <li class="menu__right__ul__item"><a href="#">SIGN IN</a></li>
+            <li class="menu__right__ul__item_after"><a href="#">CART</a></li>
+            <img class="menu__right__flag" src="img/flag.svg" alt="flag">
+          </ul>
+        </div>
       </nav>
     </header>
 
     <main>
-      <div class="main__top">
-        <h1 class="main__top__title">LEGENDARY FOOTWEAR REBORN</h1>
-        <a class="main__top__subtitle" href="#">SHOP NOW</a>
-        <img class="main__top__image" src="img/main.svg" alt="">
-        <h2 class="main__top__subtitle-after-image">FEATURED PRODUCT</h2>
-      </div>
-      <div class="main__center">
-          <div class="main__center__atlas">
-            <img class="main__center__atlas__image" src="img/atlas.svg" alt="image">
-            <p class="main__center__atlas__title">Atlas Black/Rasta Axion</p>
-            <p class="main__center__atlas__subtitle">$89.00</p>
+      <div class="wrapper">
+        <section class="main__top">
+          <h1 class="main__top__title">LEGENDARY FOOTWEAR REBORN.</h1>
+          <a class="main__top__subtitle" href="#">SHOP NOW</a>
+        </section>
+
+        <h1 class="main__center__title">FEATURED PRODUCT</h1>
+
+        <section class="main__center">
+          <article class="main__center__atlas">
+            <img class="main__center__atlas__image shoes-image" src="img/atlas.svg" alt="image">
+            <p class="main__center__atlas__title shoes-title">Atlas Black/Rasta Axion</p>
+            <p class="main__center__atlas__subtitle shoes-price">$89.00</p>
             <div class="main__center__atlas__circle">
-              <div class="main__center__atlas__circle_color_grey"></div>
-              <div class="main__center__atlas__circle_color_black"></div>
-              <div class="main__center__atlas__circle_color_red"></div>
-              <div class="main__center__atlas__circle_color_orange"></div>_
+              <span class="main__center__atlas__circle_color_grey circle circle_grey"></span>
+              <span class="main__center__atlas__circle_color_black circle"></span>
+              <span class="main__center__atlas__circle_color_red circle circle_red"></span>
+              <span class="main__center__atlas__circle_color_orange circle circle_orange"></span>
             </div>
-          </div>
-          <div class="main__center__product">
-            <img class="main__center__camel__image" src="img/camel.svg" alt="image">
-            <p class="main__center__camel__title">Camel/Chili Pepper Axion</p>
-            <p class="main__center__camel__subtitle">$74.00</p>
+          </article>
+
+          <span class="line"></span>
+
+          <article class="main__center__camel">
+            <img class="main__center__camel__image shoes-image" src="img/camel.svg" alt="image">
+            <p class="main__center__camel__title shoes-title">Camel/Chili Pepper Axion</p>
+            <p class="main__center__camel__subtitle shoes-price">$74.00</p>
             <div class="main__center__camel__circle">
-              <div class="main__center__camel__circle_color_grey"></div>
-              <div class="main__center__camel__circle_color_brown"></div>
-              <div class="main__center__camel__circle_color_red"></div>
-              <div class="main__center__camel__circle_color_orange"></div>
+              <span class="main__center__camel__circle_color_grey circle circle_grey"></span>
+              <span class="main__center__camel__circle_color_brown circle"></span>
+              <span class="main__center__camel__circle_color_red circle circle_red"></span>
+              <span class="main__center__camel__circle_color_orange circle circle_orange"></span>
             </div>
-          </div>
-          <div class="main__center__mandel">
-            <img class="main__center__mandel__image" src="img/mandel.svg" alt="image">
-            <p class="main__center__mandel__title">Mandel Smoke/Rust Axion</p>
-            <p class="main__center__mandel__subtitle">$69.00</p>
+          </article>
+
+          <span class="line"></span>
+
+          <article class="main__center__mandel">
+            <img class="main__center__mandel__image shoes-image" src="img/mandel.svg" alt="image">
+            <p class="main__center__mandel__title shoes-title">Mandel Smoke/Rust Axion</p>
+            <p class="main__center__mandel__subtitle shoes-price">$69.00</p>
             <div class="main__center__mandel__circle">
-              <div class="main__center__mandel__circle_color_grey"></div>
-              <div class="main__center__mandel__circle_color_red"></div>
-              <div class="main__center__mandel__circle_color_blue"></div>
-              <div class="main__center__mandel__circle_color_orange"></div>
+              <span class="main__center__mandel__circle_color_grey circle circle_grey"></span>
+              <span class="main__center__mandel__circle_color_red circle circle_red"></span>
+              <span class="main__center__mandel__circle_color_blue circle circle_blue"></span>
+              <span class="main__center__mandel__circle_color_orange circle circle_orange"></span>
             </div>
-          </div>
-          <div class="main__center__cloud">
-            <img class="main__center__cloud__image" src="img/cloud.svg" alt="image">
-            <p class="main__center__cloud__title">Cloud/Electric Blue Axion</p>
-            <p class="main__center__cloud__subtitle">$69.00</p>
+          </article>
+
+          <span class="line"></span>
+
+          <article class="main__center__cloud">
+            <img class="main__center__cloud__image shoes-image" src="img/cloud.svg" alt="image">
+            <p class="main__center__cloud__title shoes-title">Cloud/Electric Blue Axion</p>
+            <p class="main__center__cloud__subtitle shoes-price">$69.00</p>
             <div class="main__center__cloud__circle">
-              <div class="main__center__cloud__circle_color_grey"></div>
-              <div class="main__center__cloud__circle_color_blue"></div>
-              <div class="main__center__cloud__circle_color_red"></div>
-              <div class="main__center__cloud__circle_color_orange"></div>
+              <span class="main__center__cloud__circle_color_grey circle circle_grey"></span>
+              <span class="main__center__cloud__circle_color_blue circle circle_blue"></span>
+              <span class="main__center__cloud__circle_color_red circle circle_red"></span>
+              <span class="main__center__cloud__circle_color_orange circle circle_orange"></span>
             </div>
+          </article>
+        </section>
+
+        <section class="main__bottom">
+          <div class="main__bottom__video">
+            <img class="video__play" src="img/video_play.svg" alt="video">
           </div>
-      </div>
-      <div class="main__bottom">
-        <video src="#" class="main__bottom__video"></video>
-        <h1 class="main__bottom__title">Legendary footwear reborn</h1>
-        <p class="main__bottom__subtitle">We are a brand with a history and are relaunching for 2019. We’ve been a part of the skater’s family ever since it’s early teenage years. And now we presentate a new footwear collection.</p>
-        <a href="" class="main__bottom__source">Learn more</a>
+          <div class="main__bottom__content">
+            <h1 class="main__bottom__title">LEGENDARY FOOTWEAR REBORN</h1>
+            <p class="main__bottom__subtitle">We are a brand with a history and are relaunching for 2019. We’ve been a part of the skater’s family ever since it’s early teenage years. And now we presentate a new footwear collection.</p>
+            <a href="" class="main__bottom__source">LEARN MORE</a>
+          </div>
+        </section>
       </div>
     </main>
 
-    <footer>
+    <h1 class="news__header">RECENT STORIES</h1>
 
+    <section class="news">
+
+      <article class="news__first news__article">
+        <img class="news__first__image news__image" src="img/first_news.png" alt="first_news">
+        <h2 class="news__first__title news__title">Presents Justin Anagoa</h2>
+        <p class="news__first__subtitle news__subtitle">Anagoa’s been a part of the skater’s family ever since his early teenage years. He’s been known to go big on and off the board, but it’s been rare we get a glimpse into how Anagoa lives his day-to-day, to see what makes Anagoa tick.</p>
+        <div class="news__subscribe">
+          <a class="news__first__source news__source" href="#">LEARN MORE</a>
+          <p class="news__first__date news__date">11.08.2018</p>
+        </div>
+      </article>
+
+      <article class="news__second news__article">
+        <img class="news__second__image news__image" src="img/second_news.png" alt="second_news">
+        <h2 class="news__second__title news__title">First Frontside flip</h2>
+        <p class="news__second__subtitle news__subtitle">Yoon recently discusses his first time shooting a signature Andrew Reynolds frontside flip on The Berrics. Click the image below to see the full gallery and read up on what happened that day. <br>Photo:Yoon Sul</p>
+        <div class="news__subscribe">
+          <a class="news__second__source news__source" href="#">LEARN MORE</a>
+          <p class="news__second__date news__date">17.08.2018</p>
+        </div>
+      </article>
+
+      <article class="news__third news__article">
+        <img class="news__third__image news__image" src="img/third_news.png" alt="third_news">
+        <h2 class="news__third__title news__title">Kevin Baekkel is Pro</h2>
+        <p class="news__third__subtitle news__subtitle">Creature proudly announced today that they’re officially adding Kevin Baekkel to their pro roster. After paying his dues for years, killing it on last years Thrasher King of the Road, and constantly lighting every spot he hits on fire.</p>
+        <div class="news__subscribe">
+          <a class="news__third__source news__source" href="#">LEARN MORE</a>
+          <p class="news__third__date news__date">29.07.2018</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="photo">
+      <h2 class="photo__hashtag">#AXIONFOOTWEAR</h2>
+      <div class="photo__pipeline">
+        <img class="photo__pipeline__first pipeline__photo" src="img/img_pipeline/1.png" alt="photo">
+        <img class="photo__pipeline__second pipeline__photo" src="img/img_pipeline/2.png" alt="photo">
+        <img class="photo__pipeline__third pipeline__photo" src="img/img_pipeline/3.png" alt="photo">
+        <img class="photo__pipeline__fouth pipeline__photo" src="img/img_pipeline/4.png" alt="photo">
+        <img class="photo__pipeline__fifth pipeline__photo" src="img/img_pipeline/5.png" alt="photo">
+        <img class="photo__pipeline__sixth pipeline__photo" src="img/img_pipeline/6.png" alt="photo">
+        <img class="photo__pipeline__seventh pipeline__photo" src="img/img_pipeline/7.png" alt="photo">
+      </div>
+    </section>
+
+    <footer>
+      <section class="footer__menu">
+        <ul class="account">
+          <li class='footer__menu__title'>MY ACCOUNT</li>
+          <li class="footer__menu__item"><a href="#">Login</a></li>
+          <li class="footer__menu__item"><a href="#">Wish List</a></li>
+          <li class="footer__menu__item"><a href="#">Order History</a></li>
+          <li class="footer__menu__item"><a href="#">Track order</a></li>
+          <li class="footer__menu__item"><a href="#">Gift cards</a></li>
+        </ul>
+
+        <ul class="customer">
+          <li class='footer__menu__title'>CUSTOMER SERVICE</li>
+          <li class="footer__menu__item"><a href="#">Contact us</a></li>
+          <li class="footer__menu__item"><a href="#">Help/FAQ</a></li>
+          <li class="footer__menu__item"><a href="#">Shipping</a></li>
+          <li class="footer__menu__item"><a href="#">Returns</a></li>
+          <li class="footer__menu__item"><a href="#">Size guide</a></li>
+          <li class="footer__menu__item"><a href="#">Holiday shopping</a></li>
+        </ul>
+
+        <ul class="other">
+          <li class='footer__menu__title'>MISCELLANEOUS</li>
+          <li class="footer__menu__item"><a href="#">About Us</a></li>
+          <li class="footer__menu__item"><a href="#">Careers</a></li>
+          <li class="footer__menu__item"><a href="#">Privacy Policy</a></li>
+          <li class="footer__menu__item"><a href="#">Terms & Conditions</a></li>
+          <li class="footer__menu__item"><a href="#">Ethical Policy</a></li>
+          <li class="footer__menu__item"><a href="#">Homepage US/UK</a></li>
+        </ul>
+
+        <div class="interactive">
+          <p class="footer__menu__title">NEWSLETTER SIGN UP</p>
+          <p class="footer__menu__item">Get 10% Off Your Next Order!</p>
+          <a class="interactive__sign" href="#">SIGN UP</a>
+          <div class="interactive__icons">
+            <a href="#"><img src="img/icons/facebook.svg" alt=""></a>
+            <a href="#"><img src="img/icons/twitter.svg" alt=""></a>
+            <a href="#"><img src="img/icons/instagram.svg" alt=""></a>
+            <a href="#"><img src="img/icons/pintest.svg" alt=""></a>
+          </div>
+        </div>
+      </section>
+      <p class="rights">© 2019 Axion. All rights reserved.</p>
     </footer>
 
   </body>
